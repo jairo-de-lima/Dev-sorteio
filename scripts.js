@@ -14,7 +14,7 @@ function generateNumber() {
         return
     }
 
-    if (maxValue < minValue) {
+    if (maxValue <= minValue) {
         alert('Numero maximo incorreto')
         return
     }
