@@ -14,6 +14,11 @@ function generateNumber() {
         return
     }
 
+    if (maxValue < minValue) {
+        alert('Numero maximo incorreto')
+        return
+    }
+
 
     div.style.visibility = "visible"
    
